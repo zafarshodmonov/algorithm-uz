@@ -1,8 +1,5 @@
 import requests
 
-url = 'https://api.github.com/events'
-
-response = requests.get(url)
 
 def get_response_status_code(url: str | bytes) -> int:
     response = requests.get(url)
@@ -32,15 +29,22 @@ def get_response_content(url: str | bytes) -> bytes:
     response = requests.get(url)
     return response.content
 
+def response_raise_for_status(url: str | bytes):
+    response = requests.get(url)
+    response.raise_for_status()
+    return response
 
 def main():
+    # urls
+    url = 'https://api.github.com/events'
+    url_randomuser = "https://randomuser.me/api/"
+
     # print(get_response_status_code(url))
     # print(get_response_json(url))
     # print(get_response_url(url))
     # print(get_response_text(url))
     # print(get_response_encoding(url))
     # print(get_response_content(url))
-
     pass
 
 if __name__ == "__main__":

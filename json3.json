@@ -1,0 +1,201 @@
+{
+    "payload": {
+        "allShortcutsEnabled": false,
+        "fileTree": {
+            "": {
+                "items": [
+                    {
+                        "name": ".gitignore",
+                        "path": ".gitignore",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "README.md",
+                        "path": "README.md",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "main.py",
+                        "path": "main.py",
+                        "contentType": "file"
+                    },
+                    {
+                        "name": "requirements.txt",
+                        "path": "requirements.txt",
+                        "contentType": "file"
+                    }
+                ],
+                "totalCount": 4
+            }
+        },
+        "fileTreeProcessingTime": 2.113186,
+        "foldersToFetch": [],
+        "reducedMotionEnabled": null,
+        "repo": {
+            "id": 694652772,
+            "defaultBranch": "main",
+            "name": "echo-bot",
+            "ownerLogin": "backend-2023J",
+            "currentUserCanPush": false,
+            "isFork": false,
+            "isEmpty": false,
+            "createdAt": "2023-09-21T12:30:05.000Z",
+            "ownerAvatar": "https://avatars.githubusercontent.com/u/144347090?v=4",
+            "public": true,
+            "private": false,
+            "isOrgOwned": true
+        },
+        "symbolsExpanded": false,
+        "treeExpanded": true,
+        "refInfo": {
+            "name": "main",
+            "listCacheKey": "v0:1695299407.261102",
+            "canEdit": false,
+            "refType": "branch",
+            "currentOid": "8376154acbd24fbe178c17cd08f28717fcf16317"
+        },
+        "path": "README.md",
+        "currentUser": null,
+        "blob": {
+            "rawLines": null,
+            "stylingDirectives": null,
+            "csv": null,
+            "csvError": null,
+            "dependabotInfo": {
+                "showConfigurationBanner": false,
+                "configFilePath": null,
+                "networkDependabotPath": "/backend-2023J/echo-bot/network/updates",
+                "dismissConfigurationNoticePath": "/settings/dismiss-notice/dependabot_configuration_notice",
+                "configurationNoticeDismissed": null,
+                "repoAlertsPath": "/backend-2023J/echo-bot/security/dependabot",
+                "repoSecurityAndAnalysisPath": "/backend-2023J/echo-bot/settings/security_analysis",
+                "repoOwnerIsOrg": true,
+                "currentUserCanAdminRepo": false
+            },
+            "displayName": "README.md",
+            "displayUrl": "https://github.com/backend-2023J/echo-bot/blob/main/README.md?raw=true",
+            "headerInfo": {
+                "blobSize": "10 Bytes",
+                "deleteInfo": {
+                    "deleteTooltip": "You must be signed in to make or propose changes"
+                },
+                "editInfo": {
+                    "editTooltip": "You must be signed in to make or propose changes"
+                },
+                "ghDesktopPath": "https://desktop.github.com",
+                "gitLfsPath": null,
+                "onBranch": true,
+                "shortPath": "f5192b4",
+                "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2Fbackend-2023J%2Fecho-bot%2Fblob%2Fmain%2FREADME.md",
+                "isCSV": false,
+                "isRichtext": true,
+                "toc": [
+                    {
+                        "level": 1,
+                        "text": "echo-bot",
+                        "anchor": "echo-bot",
+                        "htmlText": "echo-bot"
+                    }
+                ],
+                "lineInfo": {
+                    "truncatedLoc": "1",
+                    "truncatedSloc": "1"
+                },
+                "mode": "file"
+            },
+            "image": false,
+            "isCodeownersFile": null,
+            "isPlain": false,
+            "isValidLegacyIssueTemplate": false,
+            "issueTemplateHelpUrl": "https://docs.github.com/articles/about-issue-and-pull-request-templates",
+            "issueTemplate": null,
+            "discussionTemplate": null,
+            "language": "Markdown",
+            "languageID": 222,
+            "large": false,
+            "loggedIn": false,
+            "newDiscussionPath": "/backend-2023J/echo-bot/discussions/new",
+            "newIssuePath": "/backend-2023J/echo-bot/issues/new",
+            "planSupportInfo": {
+                "repoIsFork": null,
+                "repoOwnedByCurrentUser": null,
+                "requestFullPath": "/backend-2023J/echo-bot/blob/main/README.md",
+                "showFreeOrgGatedFeatureMessage": null,
+                "showPlanSupportBanner": null,
+                "upgradeDataAttributes": null,
+                "upgradePath": null
+            },
+            "publishBannersInfo": {
+                "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_dockerfile",
+                "dismissStackNoticePath": "/settings/dismiss-notice/publish_stack_from_file",
+                "releasePath": "/backend-2023J/echo-bot/releases/new?marketplace=true",
+                "showPublishActionBanner": false,
+                "showPublishStackBanner": false
+            },
+            "rawBlobUrl": "https://github.com/backend-2023J/echo-bot/raw/main/README.md",
+            "renderImageOrRaw": false,
+            "richText": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><h1 tabindex=\"-1\" id=\"user-content-echo-bot\" dir=\"auto\"><a class=\"heading-link\" href=\"#echo-bot\">echo-bot<svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></h1>\n</article>",
+            "renderedFileInfo": null,
+            "shortPath": null,
+            "tabSize": 8,
+            "topBannersInfo": {
+                "overridingGlobalFundingFile": false,
+                "globalPreferredFundingPath": null,
+                "repoOwner": "backend-2023J",
+                "repoName": "echo-bot",
+                "showInvalidCitationWarning": false,
+                "citationHelpUrl": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files",
+                "showDependabotConfigurationBanner": false,
+                "actionsOnboardingTip": null
+            },
+            "truncated": false,
+            "viewable": true,
+            "workflowRedirectUrl": null,
+            "symbols": {
+                "timedOut": true,
+                "notAnalyzed": false,
+                "symbols": [
+                    {
+                        "name": " echo-bot",
+                        "kind": "section_1",
+                        "identStart": 1,
+                        "identEnd": 10,
+                        "extentStart": 0,
+                        "extentEnd": 10,
+                        "fullyQualifiedName": " echo-bot",
+                        "identUtf16": {
+                            "start": {
+                                "lineNumber": 0,
+                                "utf16Col": 1
+                            },
+                            "end": {
+                                "lineNumber": 1,
+                                "utf16Col": 0
+                            }
+                        },
+                        "extentUtf16": {
+                            "start": {
+                                "lineNumber": 0,
+                                "utf16Col": 0
+                            },
+                            "end": {
+                                "lineNumber": 1,
+                                "utf16Col": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "copilotInfo": null,
+        "csrf_tokens": {
+            "/backend-2023J/echo-bot/branches": {
+                "post": "aOK966V5k7FaVc7MlZQupQdvv547tcq8w56bQ0H1_jTy0t5_3kvr3t-RLGfxwpQRjTQPIOHV9DXs7mTrS96IsQ"
+            },
+            "/repos/preferences": {
+                "post": "vf1SpADTkz288sOwCDOSfem6KxFpKQKwU4cflOYnNT9o-2pgeJmC1zA5Ox0OXvPFvpDoOpV31J_IZ3_m66EFlA"
+            }
+        }
+    },
+    "title": "echo-bot/README.md at main \u00b7 backend-2023J/echo-bot"
+}
