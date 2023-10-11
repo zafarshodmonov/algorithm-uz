@@ -62,7 +62,7 @@ def sendMessage(chat_id: str, text: str, ):
 #             sendPhoto(chat_id, file_id)
 #         else:
 #             sendMessage(chat_id, f"other format")
-
+#
 #         last_message_id = message_id
 
 #     sleep(2)
