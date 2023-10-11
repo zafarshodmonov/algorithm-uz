@@ -1,1 +1,1 @@
-TOKEN_algorithm_uz_bot = "6670471784:AAHzWd8n1jCW0c_blg0GWAcG44ad0T2WTbc"
+1
