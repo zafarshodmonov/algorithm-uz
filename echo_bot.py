@@ -22,7 +22,7 @@ def sendMessage(chat_id: str, text: str, ):
         "chat_id": chat_id,
         "text": text
     }
-    url = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
+    url = f'https://api.telegram.org/bot{""}/sendMessage'
 
     response = requests.get(url, params=params)
 
