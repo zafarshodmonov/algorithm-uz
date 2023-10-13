@@ -1,30 +1,31 @@
 import requests
+from github import Github
+
 import json
-from zatoken import TOKEN_algorithm_uz_bot
-import zarequests
-# from time import sleep
 
-def get_response_json(url) -> dict:
-    response = requests.get(url)
-    updates = response.json() # ['result']
-    return updates
-
-def f(data, path, indent = None) -> None:
-    with open(path, "w") as f:
-        if indent is None:
-            json.dump(data, f)
-        else:
-            json.dump(data, f, indent=4)
+from zatoken import TOKEN_ALGORITHM_UZ_BOT
+from zaparol import git_hub_user_name, git_hub_password
 
 
-def sendMessage(chat_id: str, text: str, ):
+zagithub = Github(git_hub_user_name, git_hub_password)
+
+def sendMessage(text: str):
     params = {
-        "chat_id": chat_id,
+        "chat_id": 735748607,
         "text": text
     }
-    url = f'https://api.telegram.org/bot{""}/sendMessage'
+    url = f'https://api.telegram.org/bot{TOKEN_ALGORITHM_UZ_BOT}/sendMessage'
 
     response = requests.get(url, params=params)
+
+def sendDocument():
+    params = {
+        "chat_id": 735748607,
+        "document": "BQACAgIAAxkBAAMDZScs4e7pkdi4GQABkb0jCD6jx_7iAAK1OAACemw5SSTI0ZD4YUkUMAQ",
+         
+        }
+    url = f'https://api.telegram.org/bot{TOKEN_ALGORITHM_UZ_BOT}/sendDocument'
+    response = requests.post(url, params=params)
 
 # def sendPhoto(chat_id:str,photo:str):
 #     params = {
@@ -68,14 +69,7 @@ def sendMessage(chat_id: str, text: str, ):
 #     sleep(2)
 
 def main():
-    # url = f'https://api.telegram.org/bot{TOKEN_algorithm_uz_bot}/getUpdates'
-    # response = zarequests.response_raise_for_status()
-    url1 = "https://github.com/backend-2023J/echo-bot/blob/main/README.md/"
-    url2 = "https://github.com/backend-2023J/echo-bot/blob/main/README.md#echo-bot"
-    data = zarequests.get_response_text(url2)
-    with open("README.md", "w") as f:
-        f.write(data)
-
+    sendDocument()
     pass
 
 if __name__ == "__main__":
